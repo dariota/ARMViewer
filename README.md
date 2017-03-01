@@ -17,4 +17,4 @@ In Keil uVision, open the Command Window (while in Debug Mode, View -> Command W
 For example, to save a 1 pixel image to "C:\Dump\dump.hex", type "SAVE C:\dump\dump.hex 0xA1000000, 0xA1000004", then press enter.  You might need to create the folder before you can save to it.  Don't put spaces in the path, uVision doesn't like them.
 Remember to account for each pixel being 4 bytes long when calculating the end address.
 
-Open command prompt/terminal in that directory (in Windows, shift + right click, then select "Open Command Window Here"), then type "java -jar displayImage.jar dump.hex <scale factor>", where scale factor is optional (default is 4) and scales up the image (the original is pretty small).
+Open command prompt/terminal in that directory (in Windows, shift + right click, then select "Open Command Window Here"), then type "java -jar displayImage.jar dump.hex \<scale factor>", where scale factor is optional (default is 4) and scales up the image (the original is pretty small).
